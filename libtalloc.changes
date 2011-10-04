@@ -1,0 +1,5 @@
+* Fri Sep 02 2011 Carsten Munk <carsten@maemo.org> - 2.0.1-1
+- Drop libxslt and docbook-dtd-xsl dependancy, remove manpage
+
+* Thu Jul 22 2010 Yin Kangkai <kangkai.yin@intel.com> - 2.0.1-1
+- Initial import from Fedora 13
