@@ -6,6 +6,7 @@ Summary: The talloc library
 License: LGPLv3+
 URL: http://talloc.samba.org/
 Source: http://samba.org/ftp/talloc/talloc-%{version}.tar.gz
+Patch0: libtalloc-aarch64.patch
 BuildRoot: %(mktemp -ud %{_tmppath}/%{name}-%{version}-%{release}-XXXXXX)
 
 BuildRequires: autoconf
@@ -23,6 +24,7 @@ Header files needed to develop programs that link against the Talloc library.
 
 %prep
 %setup -q -n talloc-%{version}
+%patch0 -p1
 
 %build
 ./autogen.sh

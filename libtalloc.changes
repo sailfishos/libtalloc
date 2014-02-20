@@ -1,3 +1,6 @@
+* Thu Feb 20 2014 Oleg Girko <oleg.girko@jolla.com> - 2.0.1-1
+- Add aarch64 support
+
 * Fri Sep 02 2011 Carsten Munk <carsten@maemo.org> - 2.0.1-1
 - Drop libxslt and docbook-dtd-xsl dependancy, remove manpage
 
