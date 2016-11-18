@@ -1,3 +1,6 @@
+* Fri Nov 18 2016 Andrew Branson <andrew.branson@jollamobile.com> - 2.1.8-16
+- Use autogen to fix aarch64 build instead of patch. Contributes JB#36790
+
 * Thu Feb 20 2014 Oleg Girko <oleg.girko@jolla.com> - 2.0.1-1
 - Add aarch64 support
 
